@@ -1,6 +1,6 @@
-# protobuf-go-pool
+# protobuf-gopool
 
-protobuf-go-pool 是一个 Protocol Buffer 编译器插件，用于为每个消息类型自动生成对象池（sync.Pool）相关的代码。这有助于减少垃圾回收压力，提高应用程序性能，特别是在高频率创建和销毁 protobuf 消息对象的场景下。
+protobuf-gopool 是一个 Protocol Buffer 编译器插件，用于为每个消息类型自动生成对象池（sync.Pool）相关的代码。这有助于减少垃圾回收压力，提高应用程序性能，特别是在高频率创建和销毁 protobuf 消息对象的场景下。
 
 ## 功能特性
 
